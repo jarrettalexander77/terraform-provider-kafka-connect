@@ -1,12 +1,12 @@
 # `terraform-plugin-kafka-connect`
-[![CircleCI](https://circleci.com/gh/Mongey/terraform-provider-kafka-connect.svg?style=svg)](https://circleci.com/gh/Mongey/terraform-provider-kafka-connect)
+[![CircleCI](https://circleci.com/gh/jarrettalexander77/terraform-provider-kafka-connect.svg?style=svg)](https://circleci.com/gh/jarrettalexander77/terraform-provider-kafka-connect)
 
 A [Terraform][1] plugin for managing [Apache Kafka Connect][2].
 
 ## Installation
 
 Download and extract the [latest
-release](https://github.com/Mongey/terraform-provider-kafka-connect/releases/latest) to
+release](https://github.com/jarrettalexander77/terraform-provider-kafka-connect/releases/latest) to
 your [terraform plugin directory][third-party-plugins] (typically `~/.terraform.d/plugins/`)
 
 ## Example
@@ -57,10 +57,10 @@ resource "kafka-connect_connector" "sqlite-sink" {
 ## Developing
 
 0. [Install go][install-go]
-0. Clone repository to: `$GOPATH/src/github.com/Mongey/terraform-provider-kafka-connect`
+0. Clone repository to: `$GOPATH/src/github.com/jarrettalexander77/terraform-provider-kafka-connect`
     ``` bash
-    mkdir -p $GOPATH/src/github.com/Mongey/terraform-provider-kafka-connect; cd $GOPATH/src/github.com/Mongey/
-    git clone https://github.com/Mongey/terraform-provider-kafka-connect.git
+    mkdir -p $GOPATH/src/github.com/jarrettalexander77/terraform-provider-kafka-connect; cd $GOPATH/src/github.com/jarrettalexander77/
+    git clone https://github.com/jarrettalexander77/terraform-provider-kafka-connect.git
     ```
 0. Build the provider `make build`
 0. Run the tests `make test`

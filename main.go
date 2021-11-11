@@ -1,7 +1,7 @@
 package main
 
 import (
-	c "github.com/Mongey/terraform-provider-kafka-connect/connect"
+	c "github.com/jarrettalexander77/terraform-provider-kafka-connect/connect"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
 )
 
